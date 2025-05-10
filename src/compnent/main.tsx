@@ -20,3 +20,9 @@ function main() {
 }
 
 export default main;
+
+//   git config --global user.email "hasin3112@gmail.com"
+//   git config --global user.name "Elhussin"
+// ssh-keygen -t ed25519 -C "hasin3112@gmail.com"
+// ~/.ssh/id_ed25519.pub
+//ssh -T git@github.com
