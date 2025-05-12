@@ -12,3 +12,5 @@
 * [git ssh](https://github.com/settings/ssh/new)
 
 * git remote -v : check remot 
+
+### send jsx as props childern

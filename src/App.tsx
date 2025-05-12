@@ -10,7 +10,10 @@ function App() {
  
       <Nav/>
       <Main/>
-      <Artical name='John' age={30} email='h@mail.com'></Artical>
+      <Artical name='John' age={30} email='h@mail.com'> 
+        <p style={{color:"red"}}>this is a child</p>
+     
+      </Artical>
     </>
   )
 }

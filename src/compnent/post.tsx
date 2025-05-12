@@ -1,9 +1,13 @@
-
-const Post = () => {
+type PostProps = {
+  title: string;
+  content: string;
+}
+const Post = ({title,content}:PostProps) => {
   return (
-    <div className="border border-gray-300 p-4 rounded-lg shadow-md">
-      <h1 style={{fontSize:20 }}>Post</h1>
-      <p>This is the post page.</p>
+    <div className="border border-green-300 p-4 rounded-lg shadow-md">
+      <h1 style={{fontSize:20 }}>{title}</h1>
+      <p>{content}</p>
+      <hr />
     </div>
   );
 }
