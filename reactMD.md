@@ -91,3 +91,12 @@ git config --global commit.template ~/.gitmessage.txt
 
 ### open commit messag in editor
 git config --global core.editor "code --wait"
+
+
+
+# react
+### add props 
+### add childern 
+### condinatl rendering : 
+rendering :convert elment to view
+### terniery oprtore
