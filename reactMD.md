@@ -82,6 +82,8 @@ Related issues: #...
 ```
 nano ~/.gitmessage.txt
 
+git config --global commit.template ~/.gitmessage.txt
+
 ```
 * Ctrl + O → O stands for Output (save)
 
