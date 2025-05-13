@@ -90,3 +90,4 @@ git config --global commit.template ~/.gitmessage.txt
 * Ctrl + X → eXit
 
 ### open commit messag in editor
+git config --global core.editor "code --wait"
