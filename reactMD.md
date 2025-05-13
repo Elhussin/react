@@ -88,3 +88,5 @@ git config --global commit.template ~/.gitmessage.txt
 * Ctrl + O → O stands for Output (save)
 
 * Ctrl + X → eXit
+
+### open commit messag in editor
