@@ -100,3 +100,20 @@ git config --global core.editor "code --wait"
 ### condinatl rendering : 
 rendering :convert elment to view
 ### terniery oprtore
+
+- stats & stats mangment
+
+- dom : document opject module
+- react build vertical dom 
+- rerender : updte the compnent change          
+
+# react hook 
+- use 
+
+
+
+* install eslint
+```
+pnpm  install --save-dev eslint-plugin-react-dom
+pnpm  install --save-dev eslint-plugin-react-x
+```

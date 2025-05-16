@@ -1,24 +1,23 @@
 import Buttoun from "./button";
 import 'primeicons/primeicons.css';
+import {SideData} from "../assets/data";
 
 function Saide() {
-  const chape= <i className=" text-amber-300 pi pi-face-smile "></i>
-  const src  = "https://www.w3schools.com/w3images/lights.jpg";
+  const sideList = SideData.map((side) => {
+    return (
+     <Buttoun key={side.id} label={side.title} children={side.content}/>
+    );
+  });
+  const showSide = true;             
+
   return (
-    <div className="grid grid-cols-2 gap-2 side border border-red-300 p-4 rounded-lg shadow-md">
-      <Buttoun  label="Spesial"/>
-      <Buttoun label="Last" >
-        {chape}
-        {chape}
-        {chape}
-         </Buttoun>     
+    <div className="side border border-red-300 p-4 rounded-lg shadow-md">
 
-      <Buttoun label="New">
-        {chape}
-        <img style={{width:200}} src={src} alt="RECT Shape" />
-      </Buttoun>   
-      <Buttoun label="d"/> 
-
+      <div className="col-span-2">
+        <h1 className="text-2xl font-bold">Side Bar</h1>
+        <hr />
+        {showSide ? sideList : null}
+      </div>
 
     </div>
   );
